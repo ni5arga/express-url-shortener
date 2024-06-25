@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.url-form {
+  display: inline-block;
+  text-align: left;
+}
+
+.url-form input {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.url-form button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
