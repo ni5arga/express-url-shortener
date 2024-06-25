@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6",                      /* Target ECMAScript version */
+    "module": "commonjs",                 /* Module system */
+    "strict": true,                       /* Enable all strict type-checking options */
+    "esModuleInterop": true,              /* Enables interoperability between CommonJS and ES Modules */
+    "skipLibCheck": true,                 /* Skip type checking of all declaration files (*.d.ts) */
+    "forceConsistentCasingInFileNames": true, /* Disallow inconsistently-cased references to the same file */
+    "outDir": "./dist",                   /* Redirect output structure to the directory */
+    "baseUrl": "./src",                   /* Base directory to resolve non-relative module names */
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    }
+  },
+  "include": [
+    "src/**/*.ts"                        /* Include TypeScript files */
+  ],
+  "exclude": [
+    "node_modules"                       /* Exclude node_modules directory */
+  ]
+}
